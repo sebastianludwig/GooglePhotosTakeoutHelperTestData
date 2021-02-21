@@ -4,7 +4,7 @@ set -e
 usage () {
     echo "Converts each image into an empty, white image while preserving the"
     echo "EXIF data (except the preview thumbnail)."
-    echo "Requires `convert` (ImageMagick) and `exiftool` to be installed."
+    echo "Requires 'convert' (ImageMagick) and 'exiftool' to be installed."
     echo ""
     echo "Usage: clean_images.sh <folder>"
 }
@@ -31,12 +31,12 @@ if ! [[ -x "$(command -v exiftool)" ]]; then
     abort "exiftool is not installed"
 fi
 
-input_directory=$1
+input_directory="$1"
 output_directory="$input_directory/cleaned"
 
-mkdir -p $output_directory
+mkdir -p "$output_directory"
 
-for file_path in $input_directory/*; do
+for file_path in "$input_directory"/*; do
     filename=$(basename -- "$file_path")
     extension=$(echo "${filename##*.}" | tr '[:upper:]' '[:lower:]') # converted to lowercase
 
@@ -51,4 +51,4 @@ for file_path in $input_directory/*; do
     fi
 done
 
-rm -r $output_directory
+rm -r "$output_directory"
