@@ -2,9 +2,9 @@
 set -e
 
 usage () {
-    echo "Creates a 'cleaned' subfolder in the given folder and converts"
-    echo "each image into a white image containing the filename but"
-    echo "while preserving the EXIF data."
+    echo "Converts each image into an empty, white image while preserving the"
+    echo "EXIF data (except the preview thumbnail)."
+    echo "Requires `convert` (ImageMagick) and `exiftool` to be installed."
     echo ""
     echo "Usage: clean_images.sh <folder>"
 }
@@ -27,6 +27,10 @@ if ! [[ -x "$(command -v convert)" ]]; then
     abort "convert (ImageMagick) is not installed"
 fi
 
+if ! [[ -x "$(command -v exiftool)" ]]; then
+    abort "exiftool is not installed"
+fi
+
 input_directory=$1
 output_directory="$input_directory/cleaned"
 
@@ -39,7 +43,12 @@ for file_path in $input_directory/*; do
     if [[ $extension == "jpg" ||  $extension == "jpeg" || $extension == "png" ]]; then
         convert -size 8x8 xc:white "$output_directory/$filename"
         convert "$file_path" "$output_directory/$filename" -resize 8x8! -composite "$output_directory/$filename"
+        # remove the thumbnail image to not leak the image contents there
+        exiftool -ThumbnailImage= -overwrite_original_in_place -quiet "$output_directory/$filename"
         # restore original file dates
         touch -r "$file_path" "$output_directory/$filename"
+        mv "$output_directory/$filename" "$file_path"
     fi
 done
+
+rm -r $output_directory
