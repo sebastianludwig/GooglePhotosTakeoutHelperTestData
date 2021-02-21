@@ -1,0 +1,37 @@
+{
+  "title": "received_1475305699271723.jpeg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1613313612",
+    "formatted": "14 lut 2021, 14:40:12 UTC"
+  },
+  "modificationTime": {
+    "timestamp": "1613315176",
+    "formatted": "14 lut 2021, 15:06:16 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1556568359",
+    "formatted": "29 kwi 2019, 20:05:59 UTC"
+  },
+  "geoData": {
+    "latitude": 49.210771,
+    "longitude": 22.6266861,
+    "altitude": 0.0,
+    "latitudeSpan": 0.006733000000001062,
+    "longitudeSpan": 0.003373599999999025
+  },
+  "geoDataExif": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "googlePhotosOrigin": {
+    "webUpload": {
+      "computerUpload": {
+      }
+    }
+  }
+}

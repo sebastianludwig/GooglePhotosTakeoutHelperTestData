@@ -1,0 +1,37 @@
+{
+  "title": "niedzwiedz_rys1.png",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1613313918",
+    "formatted": "14 lut 2021, 14:45:18 UTC"
+  },
+  "modificationTime": {
+    "timestamp": "1613314826",
+    "formatted": "14 lut 2021, 15:00:26 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1589453231",
+    "formatted": "14 maj 2020, 10:47:11 UTC"
+  },
+  "geoData": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "googlePhotosOrigin": {
+    "webUpload": {
+      "computerUpload": {
+      }
+    }
+  }
+}

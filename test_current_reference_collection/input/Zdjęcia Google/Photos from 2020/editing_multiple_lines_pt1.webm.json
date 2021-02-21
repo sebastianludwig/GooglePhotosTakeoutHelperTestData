@@ -1,0 +1,37 @@
+{
+  "title": "editing_multiple_lines_pt1.webm",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1613313539",
+    "formatted": "14 lut 2021, 14:38:59 UTC"
+  },
+  "modificationTime": {
+    "timestamp": "1613315151",
+    "formatted": "14 lut 2021, 15:05:51 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1600971120",
+    "formatted": "24 wrz 2020, 18:12:00 UTC"
+  },
+  "geoData": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "googlePhotosOrigin": {
+    "webUpload": {
+      "computerUpload": {
+      }
+    }
+  }
+}

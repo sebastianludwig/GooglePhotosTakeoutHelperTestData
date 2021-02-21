@@ -1,0 +1,37 @@
+{
+  "title": "IMG_20210127_193339.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1613313405",
+    "formatted": "14 lut 2021, 14:36:45 UTC"
+  },
+  "modificationTime": {
+    "timestamp": "1613315176",
+    "formatted": "14 lut 2021, 15:06:16 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1611581580",
+    "formatted": "25 sty 2021, 13:33:00 UTC"
+  },
+  "geoData": {
+    "latitude": 50.0411867,
+    "longitude": 21.9991196,
+    "altitude": 0.0,
+    "latitudeSpan": 0.07284310000000101,
+    "longitudeSpan": 0.10573119999999955
+  },
+  "geoDataExif": {
+    "latitude": 49.213297222222224,
+    "longitude": 22.628841666666666,
+    "altitude": -0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "googlePhotosOrigin": {
+    "webUpload": {
+      "computerUpload": {
+      }
+    }
+  }
+}
